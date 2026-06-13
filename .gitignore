@@ -13,9 +13,6 @@ log/
 __pycache__/
 *.pyc
 
-# Local/manual control helpers
-wheel_teleop.py
-
 # Local experiment outputs
 debug_track_adaptive/
 lane_results/
