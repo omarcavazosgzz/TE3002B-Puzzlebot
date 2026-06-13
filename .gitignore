@@ -1,0 +1,32 @@
+build/
+install/
+log/
+
+# Models and generated media
+*.avi
+*.mp4
+*.engine
+*.onnx
+*.pt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local/manual control helpers
+wheel_teleop.py
+
+# Local experiment outputs
+debug_track_adaptive/
+lane_results/
+results_lines/
+results_runs/
+test_adaptive/
+test_otsu/
+test_results/
+
+# Local Codex/session files
+.agents/
+.codex/
+
+.DS_Store
